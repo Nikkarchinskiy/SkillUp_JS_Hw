@@ -6,6 +6,8 @@ if (total >= order) {
         console.log ("На складе недостаточно твоаров");
     };
 
+    // Version 2
+
     total >= order
     ?
         console.log ("Заказ оформлен, с вами свяжется менеджер")
