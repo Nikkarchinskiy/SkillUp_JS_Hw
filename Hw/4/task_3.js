@@ -17,5 +17,3 @@ if (message == null) {
 }
 
 alert (message);
-
-// (prompt !== ADMIN_PASSWORD)
