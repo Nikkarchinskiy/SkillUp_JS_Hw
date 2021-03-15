@@ -1,0 +1,21 @@
+let message = prompt ('password', "");
+
+const ADMIN_PASSWORD = 'adminpass';
+
+if (message == null) {
+
+    message = "Отменено пользователем!";
+
+}else if (message == ADMIN_PASSWORD) {
+
+    message = "Добро пожаловать!";
+
+} else {
+
+    message = "Доступ запрещен, неверный пароль!";
+
+}
+
+alert (message);
+
+// (prompt !== ADMIN_PASSWORD)
