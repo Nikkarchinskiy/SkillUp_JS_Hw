@@ -14,7 +14,41 @@
 }
 
 #first-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     height: 3em;
-    background-color: black;
-    opacity: 60%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#left-first-header {
+    width: 50%;
+}
+
+#right-first-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.right-first-header-phone {
+    color: rgb(167, 167, 167);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.right-first-header-phone:hover {
+    color: rgb(255, 255, 255);
+}
+
+#right-header-link_div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 3em;
+}
+
+.right-header-link {
+    margin-right: 22.5px;
 }

@@ -1,5 +1,7 @@
-const total = 100;
+const tal = 100;
+
 const order = 20;
+
 if (total >= order) {
     console.log ("Заказ оформлен, с вами свяжется менеджер")
    }   else {
@@ -8,8 +10,8 @@ if (total >= order) {
 
     // Version 2
 
-    total >= order
-    ?
-        console.log ("Заказ оформлен, с вами свяжется менеджер")
-    :
-        console.log ("На складе недостаточно твоаров")
+    // total >= order
+    // ?
+    //     console.log ("Заказ оформлен, с вами свяжется менеджер")
+    // :
+    //     console.log ("На складе недостаточно твоаров");
