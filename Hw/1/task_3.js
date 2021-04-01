@@ -1,6 +1,6 @@
 let message = prompt ('password', "");
 
-const ADMIN_PASSWORD = 'adminpass';
+const ADMIN_PASSWORD = '1111';
 
 if (message == null) {
 
